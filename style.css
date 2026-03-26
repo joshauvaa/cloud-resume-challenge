@@ -13,7 +13,7 @@ body {
 
 /* Accents */
 :root {
-    --accent: #166534;                  /* AWS-ish dark green */
+    --accent: #166534;                
     --accent-soft: rgba(22, 101, 52, 0.35);
 }
 
@@ -155,7 +155,7 @@ section hr {
     margin: 2px 0 0;
 }
 
-/* Emphasis in skills section */
+/* Emphasis */
 strong {
     font-weight: 600;
     color: #333333;
@@ -169,7 +169,7 @@ a:hover {
     color: #0f3f28;
 }
 
-/* Responsive */
+
 @media (max-width: 700px) {
     body {
         padding: 16px;
