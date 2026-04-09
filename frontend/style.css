@@ -169,6 +169,14 @@ a:hover {
     color: #0f3f28;
 }
 
+#visitor-line {
+    color: white;
+}
+
+#visitor-count {
+    color: white;
+}
+
 
 @media (max-width: 700px) {
     body {
