@@ -3,6 +3,8 @@ import os
 import boto3
 from decimal import Decimal
 
+# CI/CD test deployment
+
 dynamodb = boto3.resource("dynamodb")
 table = dynamodb.Table(os.environ.get("TABLE_NAME", "cloud-resume-visitor-count"))
 
